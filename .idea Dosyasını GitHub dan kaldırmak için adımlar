@@ -1,0 +1,4 @@
+idea dosyasını github a gönderdin ve sonra kaldırmak istiyorsun
+1.adım:git rm -r --cached .idea
+2.adım: git commit -m "Remove .idea from version control"
+3.adın: git push
