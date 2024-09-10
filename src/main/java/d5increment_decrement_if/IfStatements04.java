@@ -13,9 +13,11 @@ public class IfStatements04 {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Lutfen kacinci gun oldugunu giriniz");
-        int num = input.nextInt();
-
-        if (num <= 0) { //num < 1'de yazabilirdik
+        double numDouble=input.nextDouble();
+        int num =(int) numDouble;
+        if(numDouble!=num) {
+            System.out.println("Lütfen bir tamsayi giriniz");
+        } else{ if (num <= 0) { //num < 1'de yazabilirdik
             System.out.println("Gun sayilari 1'den kucuk olamaz");
         } else if (num == 1) {
             System.out.println("Pazar");
@@ -34,6 +36,9 @@ public class IfStatements04 {
         } else {
             System.out.println("Gun sayilari 7'den buyuk olamaz");
         }
+
+        }
+
 
 
     }

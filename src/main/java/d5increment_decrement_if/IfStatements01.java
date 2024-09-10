@@ -6,7 +6,7 @@ public class IfStatements01 {
         //if statements
 
         if (7 < 5) {
-            System.out.println("condition dogru, if calisti");
+            System.out.println("condition yanlıs, if calisti");
         }
         //----------------
         if (7 == 4 + 3) {
