@@ -17,7 +17,7 @@ public class IfStatements04 {
         int num =(int) numDouble;
         if(numDouble!=num) {
             System.out.println("Lütfen bir tamsayi giriniz");
-        } else{ if (num <= 0) { //num < 1'de yazabilirdik
+        } else if (num <= 0) { //num < 1'de yazabilirdik
             System.out.println("Gun sayilari 1'den kucuk olamaz");
         } else if (num == 1) {
             System.out.println("Pazar");
@@ -42,4 +42,4 @@ public class IfStatements04 {
 
 
     }
-}
+

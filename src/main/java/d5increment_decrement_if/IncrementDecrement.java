@@ -49,7 +49,6 @@ public class IncrementDecrement {
 
         int i = 10;
         int k = i++;
-
         System.out.println(k); //10
         System.out.println(i); //11
         //--------------------
